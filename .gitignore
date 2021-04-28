@@ -1,1 +1,3 @@
 node_modules
+# XDN generated build directory
+.xdn

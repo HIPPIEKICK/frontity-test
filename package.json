@@ -1,4 +1,14 @@
 {
+  "scripts": {
+    "xdn": "xdn",
+    "xdn:dev": "xdn dev",
+    "xdn:build": "xdn build",
+    "xdn:deploy": "xdn deploy",
+    "start": "frontity serve",
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve"
+  },
   "name": "nkjt-test",
   "version": "1.0.0",
   "private": true,
@@ -10,12 +20,6 @@
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
-  "scripts": {
-    "start": "frontity serve",
-    "dev": "frontity dev",
-    "build": "frontity build",
-    "serve": "frontity serve"
-  },
   "prettier": {},
   "dependencies": {
     "frontity": "^1.15.0",
@@ -24,5 +28,13 @@
     "@frontity/tiny-router": "^1.4.2",
     "@frontity/html2react": "^1.6.2",
     "@frontity/mars-theme": "./packages/mars-theme"
+  },
+  "devDependencies": {
+    "@xdn/cli": "^2.53.0",
+    "@xdn/core": "^2.53.0",
+    "@xdn/devtools": "^2.53.0",
+    "@xdn/frontity": "^2.53.0",
+    "@xdn/prefetch": "^2.53.0",
+    "@xdn/react": "^2.53.0"
   }
 }
