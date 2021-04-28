@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "c0701983ad3af2cbfce4",
+  "hash": "e1a1b500aacf85c9829d",
   "publicPath": "/static/",
   "outputPath": "/Users/matilda/Desktop/nkjt-test/nkjt-test/build/static",
   "assetsByChunkName": {
@@ -12,7 +12,7 @@
   "assets": [
     {
       "name": "list.module.js",
-      "size": 46989,
+      "size": 46906,
       "chunks": [
         "list"
       ],
@@ -76,14 +76,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 29812,
+      "size": 29730,
       "names": [
         "list"
       ],
       "files": [
         "list.module.js"
       ],
-      "hash": "977742aa6fac56c0aada",
+      "hash": "9321172ca8c562559baa",
       "siblings": [],
       "parents": [
         "nkjt-test"
